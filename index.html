@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AngelCode</title>
+    <meta name="description" content="Aprendiendo desarrollo web de manera autodidacta, practicando cada día para mejorar y aprender mejor las herramientas de HTML, CSS Y JS.">
+    <meta name="author" content="Angel">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div id="loader">
+        <div class="loader-content">
+            <h2 class="welcome-text">Bienvenido</h2>
+
+            <div class="progress-bar">
+                <div id="progress-fill"></div>
+            </div>
+            <p class="loading-text">Cargando <span class="dots"></span></p>
+        </div>
+    </div>
+    <header>
+        <h2 class="logo">Angel</h2>
+        <nav class="menu">
+            <ul class="lista">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mi</a></li>
+                <li><a href="#redes-sociales">Redes sociales</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="inicio" id="inicio">
+        <h1><span class="cian">Bienvenido</span> a mi <span class="blue">sitio</span> web</h1>
+        <p>Aprendiendo desarrollo web y a programar en python</p>
+    </div>
+
+    <!-- Mis proyectos que he hecho con html y css -->
+    <section class="proyect">
+        <div class="contenedor-cards">
+            <div class="card-proyecto">
+                <div class="animaciones">
+                    <h3>Animaciones con css</h3>
+                    <p>Aqui algunas animaciones de css que he aprendido a hacer</p>
+                    <div class="zoom">
+                        <p>Esta es una animación que hace un zoom y ademas es responsive, <br>
+                        Tien bordes redondeados y fondo transparente.</p>
+                        <div class="zoom-animado"> Como aumenta y disminuye de tamaño</div>
+                    </div>
+                    <div class="circle">
+                        <div class="circulo"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-proyecto">
+                <div class="carrusel">
+                    <div class="text">
+                        <h3>Carrusel de imagenes</h3>
+                        <p>Aqui un carrusel de imagenes con animaciones</p>
+                    </div>
+                    <div class="galeria">
+                        <div class="img">
+                            <img src="img/naturaleza.png" alt="Naturaleza">
+                            <img src="img/coffe.png" alt="tomando cafe">
+                            <img src="img/naturaleza.png" alt="Naturaleza">
+                            <img src="img/coffe.png" alt="tomando cafe">
+                            <img src="img/naturaleza.png" alt="Naturaleza">
+                            <img src="img/naturaleza.png" alt="Naturaleza">
+                            <img src="img/coffe.png" alt="tomando cafe">
+                            <img src="img/naturaleza.png" alt="Naturaleza">
+                            <img src="img/coffe.png" alt="tomando cafe">
+                            <img src="img/naturaleza.png" alt="Naturaleza">
+                            <img src="img/naturaleza.png" alt="Naturaleza">
+                            <img src="img/coffe.png" alt="tomando cafe">
+                            <img src="img/naturaleza.png" alt="Naturaleza">
+                            <img src="img/coffe.png" alt="tomando cafe">
+                            <img src="img/naturaleza.png" alt="Naturaleza">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="formulario">
+            <h3>Formulario</h3>
+            <p>Este es un formulario de contacto</p>
+                <form action="https://formspree.io/f/xkoplazq" method="POST" id="questions">
+                    <label for="nombre_usuario">Nombre</label>
+                    <input type="text" id="nombre_usuario" name="nombre_usuario" placeholder="Nombre" required>
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo" name="correo" placeholder="Correo..." required>
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" id="contraseña" name="contraseña"  placeholder="solo para mostrar" >
+                    <label for="opinion">Comentarios</label>
+                    <textarea name="opinion" id="opinion" placeholder="Comentario..."></textarea>
+                    <label for="contacto"> desea contactarme</label>
+                    <select name="contacto" id="contacto">
+                        <option value="si">si</option>
+                        <option value="Quiero colaborar">Quiero Colaborar</option>
+                        <option value="Darte un consejo">Darte un consejo</option>
+                        <option value="Solo saludar">Solo saludar</option>
+                    </select>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+    </section>
+    <article class="python">
+        <h3>Lo que he aprendido de <span class="color1">Py</span><span class="color2">thon</span></h3>
+        <p>En python es más facil aprender además de su sintaxis facil de comprender. <br>
+        Aqui algunos conceptos que he aprendido en este lenguaje.</p>
+        <div id="contenedor">
+            <div id="variables">
+                <h3>Las Variables en Python</h3>
+                <p>Las variables en python son muy faciles de definir además de no tener que declarar el tipo de variable <br>
+                que va a hacer.</p>
+            </div>
+             <div class="terminal-container">
+                    <div class="terminal-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <p>variables.py</p>
+                    </div>
+                    <div class="terminal-body">
+                        <p class="line"><span class="prompt">>>></span> # Mi script de variables</p>
+                        <p class="line"><span class="prompt">>>></span> name = "Angel"</p>
+                        <p class="line"><span class="prompt">>>></span> age = 17</p>
+                        <p class="line"><span class="prompt">>>></span> country = "Guatemala"</p>
+                        <p class="line"><span class="prompt">>>></span> print(f"Mi nombre es: {name}, Tengo {age}, y soy de: country")</p>
+                        <p class="output">Mi nombre es Angel tengo 17 años y soy de Guatemala</p>
+                    </div>
+                </div>
+            <div id="operaciones">
+                <h3>Operaciones Aritméticas</h3>
+                <p>He aprendido a realizar promedios, sumas y demás operaciones aritméticas con Python.</p>
+            </div>
+                <div class="terminal-container">
+                    <div class="terminal-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <p>angel_python_bot.py</p>
+                    </div>
+                    <div class="terminal-body">
+                        <p class="line"><span class="prompt">>>></span> # Mi script de promedio</p>
+                        <p class="line"><span class="prompt">>>></span> nota1 = 85</p>
+                        <p class="line"><span class="prompt">>>></span> nota2 = 90</p>
+                        <p class="line"><span class="prompt">>>></span> promedio = (nota1 + nota2) / 2</p>
+                        <p class="line"><span class="prompt">>>></span> print(f"Tu promedio es: {promedio}")</p>
+                        <p class="output">Tu promedio es: 87.5</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <section class="sobre-mi" id="sobre-mi">
+        <h2>Sobre mi</h2>
+        <p>Soy un chico de Guatemala que está aprendiendo desarrollo web y aprender a programar en python.<br>
+        aunque aún tengo mucho que aprender. la verdada me encanta ya que desde que empece a ver la materia de programación me llamo la atención<br>
+        y me gusta mucho, espero poder aprender mucho más y seguir mejorando mis habilidades en el desarrollo web y la programación en python.
+        </p>
+        <div class="foto">
+            <img src="img/coffe.png" alt="tomando cafe">
+            <img src="img/naturaleza.png" alt="Naturaleza">
+        </div>
+        <p>tengo 17 años, y aunque empece en mi celular ahora que ya tengo compu voy a hecharle más ganas.
+        aunque el lenguaje de programación que empece a ver es c++ la verdad he aprendido mas en python.</p>
+    </section>
+    <section class="skills">
+        <h3>Mis Habilidades</h3>
+        <div class="skill">
+            <span class="skill-name">HTML</span>
+            <div class="skill-bar">
+                <div class="skill-fill" data-percentage="80">
+                    <span class="skill-percentage">0%</span>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <span class="skill-name">CSS</span>
+            <div class="skill-bar">
+                <div class="skill-fill" data-percentage="50">
+                    <span class="skill-percentage">0%</span>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-bar">
+                <div class="skill-fill" data-percentage="15">
+                    <span class="skill-percentage">0%</span>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <span class="skill-name">Python</span>
+            <div class="skill-bar">
+                <div class="skill-fill" data-percentage="15">
+                    <span class="skill-percentage">0%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="redes-sociales" id="redes-sociales">
+        <h3>Mis Redes Sociales</h3>
+        <p>si quisieras dejarme un mensaje o contactarme puedes hacerlo através de mis redes sociales:</p>
+        <div class="icon">
+            <a href="https://wa.me/50249921433" class="icon-wa" id="icon" data-tooltip="Whatsapp" data-name="whatsapp" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://instagram.com/aangek_209" class="icon-ig" id="icon" data-tooltip="Instagram" data-name="Instagram" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com/angel crus" class="icon-fb" id="icon" data-tooltip="Facebook" data-name="Facebook" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://tiktok.com/angek_209" class="icon-tk" id="icon" data-tooltip="Tiktok" data-name="TikTok" target="_blank">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+        </div>
+    </div>
+    <!-- pie de pagina con copyrigth -->
+    <footer>
+        <p>&copy; 2024 Angel. Desarrollador en progreso.</p>
+        <p>Hecho con HTML, CSS Y JS con mucho esfuerzo</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
